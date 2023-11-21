@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.scheduler-logo{
+    position: absolute;
+    left: 30px;
+    display: flex;
+    gap: 15px;
+    width: 50px;
+    height: 50px;
+}
+.scheduler-logo p{
+    padding-top: 14px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.main-container{
+    background-image: url(../../img/Login.jpg);
+    background-size: cover;
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+   
+}
+
+.form{
+    /* margin: 0 auto; */
+    /* padding:15px 40px; */
+    /* position: relative; */
+    /* display: flex; */
+   /* justify-content: end; */
+    /* left: 400px; */
+     /* display: flex;
+    justify-content: end;  */
+    width: 50%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid gray; */
+    /* border-radius: 16px; */
+    /* background-color: rgb(43, 195, 226); */
+    /* background-image: url(../../img/mask.jpg); */
+    /* background-size: cover; */
+    /* opacity: 0.8; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+   
+}
+.btn{
+    font-size:16px;
+    padding: 12px 30px;
+    margin: 20px;
+    width: 70%;
+    background-color: white;
+    color: rgba(245, 75, 8, 0.621);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 24px;
+}
+input{
+    width: 70%;
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin: 8px 0;
+
+}
+.text1{
+   display: flex;
+   padding-top: 20px;
+   color: white;
+   justify-content: space-around;
+ }
+ .form h1{
+    padding-top: 20px;
+    color: white;
+ }
+.user-icon{
+   position: relative;
+   left: 42px;
+}
+.main-container{
+    /* background-image: url(../img/Login.jpg); */
+    /* background-size: cover; */
+    width: 100%;
+    height: 100vh;
+}
+.eye-icon{
+    position: relative;
+    right: 40px;
+}
+
